@@ -629,18 +629,6 @@ wheels = [
 ]
 
 [[package]]
-name = "itunes-app-scraper-dmi"
-version = "0.9.6"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "requests" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/d6/54/af46cfd180e5457202f790f735d32652fca2d77ba95900eccfc515b9fcaa/itunes_app_scraper_dmi-0.9.6.tar.gz", hash = "sha256:01e0867e51eb812b66eaecba2aaa6977aa7541906ece5577f72299f1a4fb2ad1", size = 9781 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/81/31/dadcfc2e6199723c548ce62e4259f3149490b8b87c7c8a48f876ed5db30e/itunes_app_scraper_dmi-0.9.6-py3-none-any.whl", hash = "sha256:ad8d3fab72dbd4ee710b748d238f51e49b7c7734e43188e7f1c546b1175ef621", size = 9739 },
-]
-
-[[package]]
 name = "jinja2"
 version = "3.1.6"
 source = { registry = "https://pypi.org/simple" }
@@ -1648,7 +1636,6 @@ dependencies = [
     { name = "deep-translator" },
     { name = "google-play-scraper" },
     { name = "googletrans" },
-    { name = "itunes-app-scraper-dmi" },
     { name = "langdetect" },
     { name = "matplotlib", version = "3.9.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
     { name = "matplotlib", version = "3.10.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
@@ -1667,7 +1654,6 @@ requires-dist = [
     { name = "deep-translator", specifier = ">=1.11.4" },
     { name = "google-play-scraper", specifier = ">=1.2.7" },
     { name = "googletrans", specifier = ">=4.0.2" },
-    { name = "itunes-app-scraper-dmi", specifier = ">=0.9.6" },
     { name = "langdetect", specifier = ">=1.0.9" },
     { name = "matplotlib", specifier = ">=3.9.4" },
     { name = "pandas", specifier = ">=2.3.0" },
